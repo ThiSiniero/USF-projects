@@ -1,0 +1,65 @@
+body{
+    background-color:rgba(169, 169, 169, 0.24);
+}
+.formulario{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid seagreen;
+    border-radius: 5%;
+    width: 30%;
+    margin-left: 35%;
+    color:seagreen;
+    background-color:whitesmoke;
+}
+.title{
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+.func-item span{
+    font-weight: 800;
+}
+.input-item{
+    color: seagreen;
+    font-weight: 800;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 1px solid seagreen;
+}
+.equation-shower{
+    margin-top: 5%;
+    font-size: 110%;
+    margin-bottom: 10%;
+    font-weight: bolder;
+}
+.btn{
+    margin-bottom: 5%;
+    width: 30%;
+}
+.final-answer{
+    font-size: 110%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 780px) {
+    .formulario{
+        font-size: 18px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .title{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    .input-item{
+        width: 80%;
+    }
+    .btn{
+        width: 35%;
+    }
+    .final-answer{
+        margin-bottom: 20%;
+    }
+}
