@@ -1,8 +1,17 @@
 body{
     background-color:rgba(169, 169, 169, 0.24);
 }
+
+.navbar{
+    background-color: darkslategray;
+    color: white;
+}
+.nav-link{
+    color: seagreen;
+}
+
 .formulario{
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     border: 2px solid seagreen;
     border-radius: 5%;
@@ -36,11 +45,17 @@ body{
     margin-bottom: 5%;
     width: 30%;
 }
+.btn:hover{
+    animation: rotation infinite 1s ;
+}
 .final-answer{
     font-size: 110%;
     margin-top: 5%;
     margin-bottom: 7%;
     font-weight: bolder;
+}
+.footer{
+    padding-top: 5%;
 }
 
 @media screen and (max-width: 780px) {
@@ -48,7 +63,8 @@ body{
         font-size: 18px;
         width: 70%;
         margin-left: 15%;
-    }
+        margin-top: 40%;
+        }
     .title{
         padding-top: 5%;
         padding-bottom: 15%;
@@ -63,3 +79,9 @@ body{
         margin-bottom: 20%;
     }
 }
+
+@keyframes rotation {
+    0%{ transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    100%{ transform: rotate(-5deg); }
+  }
