@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(119, 189, 250, 0.664);
+}
+
+.navbar{
+    background-color: darkblue;
+    color: white;
+}
+.nav-link{
+    color:cyan;
+}
+
+.initialText{
+    margin-top: 8%;
+}
+.formulario{
+    margin-top: 8%;
+    border: 2px solid darkblue;
+    border-radius: 30px;
+    width: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(184, 135, 11, 0.253);
+}
+
+.navbar{
+    background-color: darkgoldenrod;
+    color: white;
+}
+.nav-link{
+    color:gold;
+}
+
+.initialText{
+    margin-top: 8%;
+}
