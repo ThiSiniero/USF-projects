@@ -78,6 +78,12 @@ body{
     .final-answer{
         margin-bottom: 20%;
     }
+    .nav-link{
+        font-size: 80%;
+    }
+    .footer{
+        font-size: 80%;
+    }
 }
 
 @keyframes rotation {

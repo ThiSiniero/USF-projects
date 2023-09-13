@@ -20,6 +20,7 @@ body{
     width: 30%;
     padding-top: 1%;
     background-color:rgb(186, 223, 255);
+    color: darkblue;
 }
 h6{
     margin-bottom: 2%;
@@ -44,4 +45,35 @@ h6{
 .input-item{
     width: 25%;
     margin-left: 1%;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    font-weight: 800;
+    color: darkblue;
+}
+
+@media screen and (max-width: 780px) {
+    .formulario{
+        font-size: 18px;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 40%;
+        }
+    .title{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    .input-item{
+        width: 60%;
+        padding-left: 2%;
+    }
+    .btn{
+        width: 35%;
+        margin-bottom: 15%;
+    }
+    .nav-link{
+        font-size: 80%;
+    }
+    .footer{
+        font-size: 80%;
+    }
 }
