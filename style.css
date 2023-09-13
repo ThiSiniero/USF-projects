@@ -9,7 +9,32 @@ body{
 .nav-link{
     color:gold;
 }
-
 .initialText{
     margin-top: 8%;
+}
+.images{
+    margin-top: 5%;
+}
+.image{
+    width: 60.5%;
+    border-radius: 15px 0px 0px 15px;
+    border-top: 2px solid darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod;
+    border-left: 2px solid darkgoldenrod;
+}
+.redutivel-link{
+    text-decoration: none;
+    color: black;
+}
+.redutivel-link div{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.side-text{
+    background-color: rgba(184, 135, 11, 0.13);
+    padding: 40% 5%;
+    border-top: 2px solid darkgoldenrod;
+    border-right: 2px solid darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod;
+    border-radius: 0px 15px 15px 0px;
 }
