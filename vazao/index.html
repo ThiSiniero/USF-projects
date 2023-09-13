@@ -31,33 +31,55 @@
 
     <div class="formulario container fst-italic">
         
-        <h2 class="title">Redutor de Quadráticos</h2>
+        <h2 class="title">Medidor de Vazão</h2>
+        <p>Preencha os questionarios com as informações disponiveis. <br> (caso não saiba alguma destas informações apenas deixe em branco)</p>
+
         <div class="items">
             <div class="func-item">
-                <span>a:</span>
-                <input class="input-item" id="a" type="number" placeholder="ex: 5" />
+                <span>Volume do Tanque :</span>
+                <input class="input-item" id="volume" type="number" placeholder="ex: 5 m" />
             </div>
             <div class="func-item">
-                <span>b:</span>
-                <input id="b" type="number" class="input-item" placeholder="ex: 6" />
+                <span>Área do Tanque :</span>
+                <input id="area" type="number" class="input-item" placeholder="ex: 6 m" />
             </div>
             <div class="func-item">
-                <span>c:</span>
-                <input id="c" type="number" placeholder="ex: 2" class="input-item" />
+                <span>Tempo Medido :</span>
+                <input id="tempo" type="number" placeholder="ex: 10 s" class="input-item" />
             </div>
+            <div class="func-item">
+                <span>Velocidade de Vazão :</span>
+                <input id="velocidade" type="number" placeholder="ex: 12 m/s" class="input-item" />
+            </div>
+            <div class="func-item">
+                <span>Densidade do Liquido :</span>
+                <input id="densidade" type="number" placeholder="ex: 1200 kg/m²" class="input-item" />
+            </div>
+            <div class="func-item">
+                <span>Massa do Liquido:</span>
+                <input id="massa" type="number" placeholder="ex: 20 kg" class="input-item" />
+            </div>
+            
 
-            <div class="equation-shower">
-                Está é sua Função:
-                <h6 id="equation-shower">ax² + bx + c = 0 </h6>
+            <div class="vazaoVol">
+                <h6 id="vazaoVol"></h6>
+            </div>
+            <div class="vazaoMas">
+                <h6 id="vazaoMas"></h6>
+            </div>
+            <div class="vazaoPes">
+                <h6 id="vazaoPes"></h6>
             </div>
         </div>
 
         <div>
-            <button type="button" id="btn-calc" class="btn btn-outline-success" onclick="">Calcular</button>
+            <button type="button" id="btn" class="btn btn-outline-success" onclick="">Calcular</button>
         </div>
 
         <div class="final-answer">
         </div>  
         <div class="text-start footer">Feito por Thiago Siniero</div> 
+
+        <script src="script.js"></script>
 </body>
 </html>
