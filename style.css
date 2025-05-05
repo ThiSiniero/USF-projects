@@ -1,40 +1,54 @@
-body{
+body {
     background-color: rgba(184, 135, 11, 0.253);
 }
 
-.navbar{
+.navbar {
     background-color: darkgoldenrod;
     color: white;
 }
-.nav-link{
-    color:gold;
+
+.nav-link {
+    color: gold;
 }
-.initialText{
+
+.initialText {
     margin-top: 8%;
 }
-.images{
+
+.images {
     margin-top: 5%;
 }
-.image{
-    width: 60.5%;
-    border-radius: 15px 0px 0px 15px;
-    border-top: 2px solid darkgoldenrod;
-    border-bottom: 2px solid darkgoldenrod;
-    border-left: 2px solid darkgoldenrod;
-}
-.redutivel-link{
+
+/* Estilo para os links dos projetos */
+.redutivel-link {
     text-decoration: none;
     color: black;
+    border: 2px solid darkgoldenrod;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin: 0;
 }
-.redutivel-link div{
-    padding-left: 0%;
-    padding-right: 0%;
+
+/* Remove padding interno das colunas de imagem e texto */
+.redutivel-link > div {
+    padding: 0;
 }
-.side-text{
+
+/* Imagem dentro do card */
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Texto ao lado da imagem */
+.side-text {
     background-color: rgba(184, 135, 11, 0.13);
-    padding: 40% 5%;
-    border-top: 2px solid darkgoldenrod;
-    border-right: 2px solid darkgoldenrod;
-    border-bottom: 2px solid darkgoldenrod;
-    border-radius: 0px 15px 15px 0px;
+}
+.side-text p{
+    padding: 10%;
+    margin: 0;
+    text-align: left;
 }
