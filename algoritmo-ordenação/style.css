@@ -8,28 +8,39 @@ body{
 .nav-link{
     color:white;
 }
-h1 {
-    font-family: normal
+.conteudo{
+    margin-top: 8%;
+    border: 2px solid rgb(160, 34, 34);
+    border-radius: 30px;
+    width: 40%;
+    padding-top: 1%;
+    background-color:rgba(255, 255, 255, 0.397);
+    color: darkblue;
 }
 .initialText{
     margin-top: 4%;
+    margin-bottom: 4%;
 }
-hr {
-    border: none;              
-    height: 3px;              
-    background-color: black;  
-    margin-bottom: 2%; 
-}
-
-.downloads h3{
-    margin: 10px;
+.downloads{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 0px;
+    width: 70%;
+    margin: auto;
 }
 .downloads p{
     margin-bottom: 1px;
 }
-section h3{
+section h5{
+    margin: 20px;
+    font-family: normal;
+}
+section h4{
     margin: 30px;
     font-family: normal;
+}
+.result{
+    margin: 10px;
 }
 #sortedResult {
     white-space: normal;
@@ -51,8 +62,17 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .initialText{
+    .conteudo{
+        font-size: 18px;
+        width: 70%;
+        margin-left: 15%;
         margin-top: 40%;
+    }
+    .initialText{
+        margin-top: 10%;
+    }
+    .downloads{
+        display: inline;
     }
     header img {
         display: none;
@@ -64,5 +84,17 @@ footer {
         position: static;
         transform: none;
         text-align: center;
+    }
+    #fileInput{
+        color: transparent; 
+        width: 150px;
+        cursor: pointer;
+    }
+    #fileInput::-webkit-file-upload-button {
+        cursor: pointer;
+    }
+    #fileInput::-moz-focus-inner {
+        border: 0;
+        padding: 0;
     }
 }

@@ -22,11 +22,10 @@
     </header>
     
 
-    <section>
-        <h1 class="initialText">Teste a velocidade de ordenação de cada algoritmo.</h1>
-        <hr>
+    <section class="container conteudo">
+        <h2 class="initialText">Comparador de Ordenação</h2>
+        <h5>Arquivos txt de exemplo para utilizar neste teste:</h5>
         <div class="downloads">
-            <h3>Baixe arquivos txt de exemplo para utilizar neste teste</h3>
             <p>1000 números: <a href="arquivos/aleatorio_1k.zip" download="aleatorio_1k.zip">1k</a></p>
             <p>10000 números: <a href="arquivos/aleatorio_10k.zip" download="aleatorio_10k.zip">10k</a></p>
             <p>100 mil números: <a href="arquivos/aleatorio_100k.zip" download="aleatorio_100k.zip">100k</a></p>
@@ -34,10 +33,10 @@
         </div>
 
         
-        <h3>Envie um arquivo .txt com números para ordenação</h3>
-            <input type="file" id="fileInput" />
+        <h4>Envie um arquivo .txt com números para ordenação</h4>
+        <input type="file" id="fileInput"/>
 
-            <h3>Escolha um algoritmo de ordenação</h3>
+        <h4>Escolha um algoritmo de ordenação</h4>
 
                 <select id="sortSelect">
                     <option value="bubbleSort">Bubble Sort</option>
@@ -52,10 +51,10 @@
 
                 <button onclick="processFile()">Ordenar Números</button>
 
-                <h3>Tempo de Execução:</h3>
+                <h4 class="result">Tempo de Execução:</h4>
                 <pre id="executionTime"></pre>
 
-                <h3>Resultado da Ordenação:</h3>
+                <h4 class="result">Resultado da Ordenação:</h4>
                 <pre id="sortedResult"></pre>
     </section>
 
